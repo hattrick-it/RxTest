@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var environmentLabel: UILabel!
+    @IBOutlet var serverBaseURLLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        environmentLabel.text = "Environment: \(ConfigurationManager.environment.rawValue.capitalized)"
+        serverBaseURLLabel.text = "Server Base URL: \(ConfigurationManager.sharedInstance.serverBaseURL)"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
