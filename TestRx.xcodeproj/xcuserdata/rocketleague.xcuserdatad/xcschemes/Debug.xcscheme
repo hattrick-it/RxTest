@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CBA5C1CA20725CE200CEC2CE"
-               BuildableName = "TestRx.app"
+               BuildableName = "TestRx .app"
                BlueprintName = "TestRx"
                ReferencedContainer = "container:TestRx.xcodeproj">
             </BuildableReference>
@@ -34,7 +34,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBA5C1CA20725CE200CEC2CE"
-            BuildableName = "TestRx.app"
+            BuildableName = "TestRx .app"
             BlueprintName = "TestRx"
             ReferencedContainer = "container:TestRx.xcodeproj">
          </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBA5C1CA20725CE200CEC2CE"
-            BuildableName = "TestRx.app"
+            BuildableName = "TestRx .app"
             BlueprintName = "TestRx"
             ReferencedContainer = "container:TestRx.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBA5C1CA20725CE200CEC2CE"
-            BuildableName = "TestRx.app"
+            BuildableName = "TestRx .app"
             BlueprintName = "TestRx"
             ReferencedContainer = "container:TestRx.xcodeproj">
          </BuildableReference>
