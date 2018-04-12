@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>SERVER_BASE_URL</key>
-	<string>Debug.myapp.com</string>
+	<string>https://dog.ceo/api</string>
 </dict>
 </plist>

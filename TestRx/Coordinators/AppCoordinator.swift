@@ -3,7 +3,7 @@
 //  TestRx
 //
 //  Created by Esteban Arrua on 4/4/18.
-//  Copyright © 2018 Rocket League. All rights reserved.
+//  Copyright © 2018 Hattrick. All rights reserved.
 //
 
 import Foundation
@@ -31,7 +31,8 @@ final class AppCoordinator: BaseCoordinator<Void> {
     // MARK: - Private methods
     
     private func showHome() {
-        print("SignedIn")
+        let homeCoordinator = HomeCoordinator(window: self.window)
+        _ = self.coordinate(to: homeCoordinator)
     }
     
 }
