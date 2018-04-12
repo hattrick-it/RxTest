@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		383FEB0720764DBB00D7716C /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB0620764DBB00D7716C /* UIViewController+ShowAlert.swift */; };
+		383FEB0A2077B29F00D7716C /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB092077B29F00D7716C /* RequestHelper.swift */; };
+		383FEB0C2077D4F800D7716C /* DogBreedsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB0B2077D4F800D7716C /* DogBreedsRepository.swift */; };
+		383FEB0E2077D88B00D7716C /* DogBreedsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB0D2077D88B00D7716C /* DogBreedsService.swift */; };
+		383FEB11207B8F0000D7716C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383FEB10207B8F0000D7716C /* HomeViewController.xib */; };
+		383FEB13207B8F5600D7716C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB12207B8F5600D7716C /* HomeViewController.swift */; };
+		383FEB15207B93A100D7716C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB14207B93A100D7716C /* HomeViewModel.swift */; };
+		383FEB17207B955900D7716C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB16207B955900D7716C /* HomeCoordinator.swift */; };
+		383FEB1B207BA79E00D7716C /* BreedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383FEB1A207BA79E00D7716C /* BreedTableViewCell.xib */; };
+		383FEB1D207BA7B200D7716C /* BreedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB1C207BA7B200D7716C /* BreedTableViewCell.swift */; };
+		383FEB24207CE79300D7716C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB23207CE79300D7716C /* Result.swift */; };
+		383FEB27207CE80600D7716C /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB26207CE80600D7716C /* Mappable.swift */; };
+		383FEB29207CE88A00D7716C /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB28207CE88A00D7716C /* ResultError.swift */; };
+		383FEB2B207CF47D00D7716C /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB2A207CF47D00D7716C /* Breed.swift */; };
+		383FEB2D207D266D00D7716C /* ResultColletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB2C207D266D00D7716C /* ResultColletion.swift */; };
+		383FEB37207F908D00D7716C /* String+CapitalizingFirstLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB36207F908D00D7716C /* String+CapitalizingFirstLetter.swift */; };
+		383FEB39207FD83E00D7716C /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB38207FD83E00D7716C /* String+Localization.swift */; };
+		383FEB3D207FD8B400D7716C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383FEB3F207FD8B400D7716C /* Localizable.strings */; };
 		385D144C2075149F000E7BF1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D144B2075149F000E7BF1 /* AppCoordinator.swift */; };
 		385D144E2075156A000E7BF1 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D144D2075156A000E7BF1 /* BaseCoordinator.swift */; };
 		385D145020751613000E7BF1 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D144F20751613000E7BF1 /* LoginCoordinator.swift */; };
@@ -30,6 +47,23 @@
 /* Begin PBXFileReference section */
 		2A887EE0730FEB4E7D0722AA /* Pods-TestRx.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRx.testing.xcconfig"; path = "Pods/Target Support Files/Pods-TestRx/Pods-TestRx.testing.xcconfig"; sourceTree = "<group>"; };
 		383FEB0620764DBB00D7716C /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		383FEB092077B29F00D7716C /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		383FEB0B2077D4F800D7716C /* DogBreedsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsRepository.swift; sourceTree = "<group>"; };
+		383FEB0D2077D88B00D7716C /* DogBreedsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsService.swift; sourceTree = "<group>"; };
+		383FEB10207B8F0000D7716C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		383FEB12207B8F5600D7716C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		383FEB14207B93A100D7716C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		383FEB16207B955900D7716C /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		383FEB1A207BA79E00D7716C /* BreedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreedTableViewCell.xib; sourceTree = "<group>"; };
+		383FEB1C207BA7B200D7716C /* BreedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewCell.swift; sourceTree = "<group>"; };
+		383FEB23207CE79300D7716C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		383FEB26207CE80600D7716C /* Mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		383FEB28207CE88A00D7716C /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
+		383FEB2A207CF47D00D7716C /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		383FEB2C207D266D00D7716C /* ResultColletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultColletion.swift; sourceTree = "<group>"; };
+		383FEB36207F908D00D7716C /* String+CapitalizingFirstLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CapitalizingFirstLetter.swift"; sourceTree = "<group>"; };
+		383FEB38207FD83E00D7716C /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		383FEB3E207FD8B400D7716C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		385D144B2075149F000E7BF1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		385D144D2075156A000E7BF1 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		385D144F20751613000E7BF1 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
@@ -76,17 +110,82 @@
 		383FEB0420764D5F00D7716C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				383FEB0520764D8200D7716C /* Categories */,
+				383FEB0520764D8200D7716C /* Extensions */,
+				383FEB28207CE88A00D7716C /* ResultError.swift */,
+				383FEB23207CE79300D7716C /* Result.swift */,
+				383FEB2C207D266D00D7716C /* ResultColletion.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		383FEB0520764D8200D7716C /* Categories */ = {
+		383FEB0520764D8200D7716C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				383FEB0620764DBB00D7716C /* UIViewController+ShowAlert.swift */,
+				383FEB36207F908D00D7716C /* String+CapitalizingFirstLetter.swift */,
+				383FEB38207FD83E00D7716C /* String+Localization.swift */,
 			);
-			path = Categories;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		383FEB082077B23A00D7716C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB092077B29F00D7716C /* RequestHelper.swift */,
+				383FEB0D2077D88B00D7716C /* DogBreedsService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		383FEB0F207B8E7500D7716C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB10207B8F0000D7716C /* HomeViewController.xib */,
+				383FEB12207B8F5600D7716C /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		383FEB18207BA77200D7716C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB19207BA77A00D7716C /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		383FEB19207BA77A00D7716C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB1A207BA79E00D7716C /* BreedTableViewCell.xib */,
+				383FEB1C207BA7B200D7716C /* BreedTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		383FEB1E207BA93B00D7716C /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB25207CE7C000D7716C /* Mappable */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
+		383FEB25207CE7C000D7716C /* Mappable */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB26207CE80600D7716C /* Mappable.swift */,
+				383FEB2A207CF47D00D7716C /* Breed.swift */,
+			);
+			path = Mappable;
+			sourceTree = "<group>";
+		};
+		383FEB3A207FD87300D7716C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				383FEB3F207FD8B400D7716C /* Localizable.strings */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		385D144A20751443000E7BF1 /* Coordinators */ = {
@@ -95,6 +194,7 @@
 				385D144D2075156A000E7BF1 /* BaseCoordinator.swift */,
 				385D144B2075149F000E7BF1 /* AppCoordinator.swift */,
 				385D144F20751613000E7BF1 /* LoginCoordinator.swift */,
+				383FEB16207B955900D7716C /* HomeCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -103,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				385D1452207558B6000E7BF1 /* AuthenticationManager.swift */,
+				383FEB0B2077D4F800D7716C /* DogBreedsRepository.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -138,12 +239,16 @@
 		CBA5C1CD20725CE200CEC2CE /* TestRx */ = {
 			isa = PBXGroup;
 			children = (
+				383FEB1E207BA93B00D7716C /* Model  */,
+				383FEB18207BA77200D7716C /* Views */,
+				383FEB082077B23A00D7716C /* Networking */,
 				383FEB0420764D5F00D7716C /* Shared */,
 				385D1451207557FF000E7BF1 /* Managers */,
 				385D144A20751443000E7BF1 /* Coordinators */,
 				CBA5C1EE2072BEF500CEC2CE /* ViewModels */,
 				CBA5C1EF2072BF0B00CEC2CE /* ViewControllers */,
 				CBA5C1E42072656700CEC2CE /* Configuration */,
+				383FEB3A207FD87300D7716C /* SupportingFiles */,
 				CBA5C1CE20725CE200CEC2CE /* AppDelegate.swift */,
 				CBA5C1D020725CE200CEC2CE /* ViewController.swift */,
 				CBA5C1D520725CE200CEC2CE /* Assets.xcassets */,
@@ -169,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				CBA5C1F62072C11D00CEC2CE /* LoginViewModel.swift */,
+				383FEB14207B93A100D7716C /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,6 +282,7 @@
 		CBA5C1EF2072BF0B00CEC2CE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				383FEB0F207B8E7500D7716C /* Home */,
 				CBA5C1F12072C07000CEC2CE /* Login */,
 			);
 			path = ViewControllers;
@@ -202,7 +309,6 @@
 				CBA5C1C820725CE200CEC2CE /* Frameworks */,
 				CBA5C1C920725CE200CEC2CE /* Resources */,
 				70ED10AA1511C2B58CDB6973 /* [CP] Embed Pods Frameworks */,
-				DD045D0EC58E623E79D5E6B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,7 +327,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Rocket League";
+				ORGANIZATIONNAME = Hattrick;
 				TargetAttributes = {
 					CBA5C1CA20725CE200CEC2CE = {
 						CreatedOnToolsVersion = 9.2;
@@ -252,9 +358,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383FEB11207B8F0000D7716C /* HomeViewController.xib in Resources */,
 				CBA5C1EB207266B900CEC2CE /* Configuration-Testing.plist in Resources */,
 				CBA5C1ED207266D400CEC2CE /* Configuration-Release.plist in Resources */,
 				CBA5C1F32072C0E300CEC2CE /* LoginViewController.xib in Resources */,
+				383FEB3D207FD8B400D7716C /* Localizable.strings in Resources */,
+				383FEB1B207BA79E00D7716C /* BreedTableViewCell.xib in Resources */,
 				CBA5C1D920725CE200CEC2CE /* LaunchScreen.storyboard in Resources */,
 				CBA5C1D620725CE200CEC2CE /* Assets.xcassets in Resources */,
 				CBA5C1E82072666C00CEC2CE /* Configuration-Debug.plist in Resources */,
@@ -289,32 +398,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestRx/Pods-TestRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRx/Pods-TestRx-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD045D0EC58E623E79D5E6B7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRx/Pods-TestRx-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -324,23 +426,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383FEB2B207CF47D00D7716C /* Breed.swift in Sources */,
 				CBA5C1F72072C11D00CEC2CE /* LoginViewModel.swift in Sources */,
+				383FEB24207CE79300D7716C /* Result.swift in Sources */,
 				CBA5C1D120725CE200CEC2CE /* ViewController.swift in Sources */,
 				383FEB0720764DBB00D7716C /* UIViewController+ShowAlert.swift in Sources */,
+				383FEB2D207D266D00D7716C /* ResultColletion.swift in Sources */,
+				383FEB17207B955900D7716C /* HomeCoordinator.swift in Sources */,
+				383FEB15207B93A100D7716C /* HomeViewModel.swift in Sources */,
+				383FEB0A2077B29F00D7716C /* RequestHelper.swift in Sources */,
 				CBA5C1CF20725CE200CEC2CE /* AppDelegate.swift in Sources */,
+				383FEB13207B8F5600D7716C /* HomeViewController.swift in Sources */,
 				385D1453207558B6000E7BF1 /* AuthenticationManager.swift in Sources */,
+				383FEB29207CE88A00D7716C /* ResultError.swift in Sources */,
 				CBA5C1E3207261EA00CEC2CE /* ConfigurationManager.swift in Sources */,
 				CBA5C1F52072C0FD00CEC2CE /* LoginViewController.swift in Sources */,
 				CBA5C1E6207265B300CEC2CE /* ConfigurationManager+Properties.swift in Sources */,
 				385D145020751613000E7BF1 /* LoginCoordinator.swift in Sources */,
+				383FEB37207F908D00D7716C /* String+CapitalizingFirstLetter.swift in Sources */,
 				385D144C2075149F000E7BF1 /* AppCoordinator.swift in Sources */,
+				383FEB39207FD83E00D7716C /* String+Localization.swift in Sources */,
 				385D144E2075156A000E7BF1 /* BaseCoordinator.swift in Sources */,
+				383FEB1D207BA7B200D7716C /* BreedTableViewCell.swift in Sources */,
+				383FEB0E2077D88B00D7716C /* DogBreedsService.swift in Sources */,
+				383FEB27207CE80600D7716C /* Mappable.swift in Sources */,
+				383FEB0C2077D4F800D7716C /* DogBreedsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		383FEB3F207FD8B400D7716C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383FEB3E207FD8B400D7716C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CBA5C1D720725CE200CEC2CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

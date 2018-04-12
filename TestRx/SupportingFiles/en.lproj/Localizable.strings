@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TestRx
+
+  Created by Esteban Arrua on 4/12/18.
+  Copyright © 2018 Hattrick. All rights reserved.
+*/
+
+// Common
+
+"Error" = "Error";
+
+// Result Errors
+
+"Something went wrong" = "Something went wrong";
+"Breed not found" ="Breed not found";

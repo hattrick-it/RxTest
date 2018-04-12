@@ -8,5 +8,7 @@ target 'TestRx' do
   # Pods for TestRx
   pod 'RxSwift', '~> 4.0'
   pod 'RxCocoa', '~> 4.0'
+  pod 'Moya/RxSwift', '~> 11.0'
+  pod 'SwiftyJSON'
 
 end

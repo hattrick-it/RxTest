@@ -3,7 +3,7 @@
 //  TestRx
 //
 //  Created by Esteban Arrua on 4/5/18.
-//  Copyright © 2018 Rocket League. All rights reserved.
+//  Copyright © 2018 Hattrick. All rights reserved.
 //
 
 import Foundation
