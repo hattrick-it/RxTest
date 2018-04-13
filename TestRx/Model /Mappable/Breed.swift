@@ -20,4 +20,10 @@ class Breed: Mappable {
         super.init(json: json)
     }
     
+    required init() {
+        self.name = ""
+        
+        super.init()
+    }
+    
 }
