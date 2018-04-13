@@ -17,6 +17,10 @@ class HomeViewModel {
     
     let getBreeds: AnyObserver<Void>
     
+    var selectBreed: AnyObserver<Breed> {
+        return _selectedBreed.asObserver()
+    }
+    
     // MARK: - Outputs
     
     var breeds: Observable<[Breed]> {
@@ -27,10 +31,16 @@ class HomeViewModel {
         return _error.asObservable()
     }
     
+    var selectedBreed: Observable<Breed> {
+        return _selectedBreed.asObservable()
+    }
+    
     // MARK: - Private vars
     
     private let _error = PublishSubject<String>()
+    private let _selectedBreed = PublishSubject<Breed>()
     private let breedsVariable = Variable<[Breed]>([])
+    
     
     init() {
         let _getBreeds = PublishSubject<Void>()

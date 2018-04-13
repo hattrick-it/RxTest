@@ -11,7 +11,11 @@ import SwiftyJSON
 
 class Mappable {
     
-    required init? (json: JSON?) {
+    required init?(json: JSON?) {
+    }
+    
+    required init() {
+        
     }
     
 }

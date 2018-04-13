@@ -21,4 +21,8 @@ class DogBreedsRepository {
         return RequestHelper.sharedInstance().performRequest(endopoint: .breeds())
     }
     
+    func getImageBreed(name: String) -> Observable<Result<BreedImage>> {
+        return RequestHelper.sharedInstance().performRequest(endopoint: .breedImage(name: name))
+    }
+    
 }

@@ -25,6 +25,11 @@
 		383FEB37207F908D00D7716C /* String+CapitalizingFirstLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB36207F908D00D7716C /* String+CapitalizingFirstLetter.swift */; };
 		383FEB39207FD83E00D7716C /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB38207FD83E00D7716C /* String+Localization.swift */; };
 		383FEB3D207FD8B400D7716C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383FEB3F207FD8B400D7716C /* Localizable.strings */; };
+		383FEB41207FE53000D7716C /* BreedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB40207FE53000D7716C /* BreedImage.swift */; };
+		383FEB44207FE53F00D7716C /* BreedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB42207FE53F00D7716C /* BreedImageViewController.swift */; };
+		383FEB47207FE54A00D7716C /* BreedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB46207FE54A00D7716C /* BreedImageViewModel.swift */; };
+		383FEB492080EE0500D7716C /* BreedImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383FEB482080EE0500D7716C /* BreedImageViewController.xib */; };
+		383FEB4B2080F4FE00D7716C /* UIImageView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FEB4A2080F4FE00D7716C /* UIImageView+Loading.swift */; };
 		385D144C2075149F000E7BF1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D144B2075149F000E7BF1 /* AppCoordinator.swift */; };
 		385D144E2075156A000E7BF1 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D144D2075156A000E7BF1 /* BaseCoordinator.swift */; };
 		385D145020751613000E7BF1 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D144F20751613000E7BF1 /* LoginCoordinator.swift */; };
@@ -64,6 +69,11 @@
 		383FEB36207F908D00D7716C /* String+CapitalizingFirstLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CapitalizingFirstLetter.swift"; sourceTree = "<group>"; };
 		383FEB38207FD83E00D7716C /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		383FEB3E207FD8B400D7716C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		383FEB40207FE53000D7716C /* BreedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedImage.swift; sourceTree = "<group>"; };
+		383FEB42207FE53F00D7716C /* BreedImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedImageViewController.swift; sourceTree = "<group>"; };
+		383FEB46207FE54A00D7716C /* BreedImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedImageViewModel.swift; sourceTree = "<group>"; };
+		383FEB482080EE0500D7716C /* BreedImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreedImageViewController.xib; sourceTree = "<group>"; };
+		383FEB4A2080F4FE00D7716C /* UIImageView+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Loading.swift"; sourceTree = "<group>"; };
 		385D144B2075149F000E7BF1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		385D144D2075156A000E7BF1 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		385D144F20751613000E7BF1 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
@@ -124,6 +134,7 @@
 				383FEB0620764DBB00D7716C /* UIViewController+ShowAlert.swift */,
 				383FEB36207F908D00D7716C /* String+CapitalizingFirstLetter.swift */,
 				383FEB38207FD83E00D7716C /* String+Localization.swift */,
+				383FEB4A2080F4FE00D7716C /* UIImageView+Loading.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -140,6 +151,8 @@
 		383FEB0F207B8E7500D7716C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				383FEB482080EE0500D7716C /* BreedImageViewController.xib */,
+				383FEB42207FE53F00D7716C /* BreedImageViewController.swift */,
 				383FEB10207B8F0000D7716C /* HomeViewController.xib */,
 				383FEB12207B8F5600D7716C /* HomeViewController.swift */,
 			);
@@ -174,6 +187,7 @@
 		383FEB25207CE7C000D7716C /* Mappable */ = {
 			isa = PBXGroup;
 			children = (
+				383FEB40207FE53000D7716C /* BreedImage.swift */,
 				383FEB26207CE80600D7716C /* Mappable.swift */,
 				383FEB2A207CF47D00D7716C /* Breed.swift */,
 			);
@@ -273,8 +287,9 @@
 		CBA5C1EE2072BEF500CEC2CE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				CBA5C1F62072C11D00CEC2CE /* LoginViewModel.swift */,
+				383FEB46207FE54A00D7716C /* BreedImageViewModel.swift */,
 				383FEB14207B93A100D7716C /* HomeViewModel.swift */,
+				CBA5C1F62072C11D00CEC2CE /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -359,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383FEB11207B8F0000D7716C /* HomeViewController.xib in Resources */,
+				383FEB492080EE0500D7716C /* BreedImageViewController.xib in Resources */,
 				CBA5C1EB207266B900CEC2CE /* Configuration-Testing.plist in Resources */,
 				CBA5C1ED207266D400CEC2CE /* Configuration-Release.plist in Resources */,
 				CBA5C1F32072C0E300CEC2CE /* LoginViewController.xib in Resources */,
@@ -399,6 +415,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestRx/Pods-TestRx-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -408,6 +425,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -436,21 +454,25 @@
 				383FEB15207B93A100D7716C /* HomeViewModel.swift in Sources */,
 				383FEB0A2077B29F00D7716C /* RequestHelper.swift in Sources */,
 				CBA5C1CF20725CE200CEC2CE /* AppDelegate.swift in Sources */,
+				383FEB44207FE53F00D7716C /* BreedImageViewController.swift in Sources */,
 				383FEB13207B8F5600D7716C /* HomeViewController.swift in Sources */,
 				385D1453207558B6000E7BF1 /* AuthenticationManager.swift in Sources */,
 				383FEB29207CE88A00D7716C /* ResultError.swift in Sources */,
 				CBA5C1E3207261EA00CEC2CE /* ConfigurationManager.swift in Sources */,
 				CBA5C1F52072C0FD00CEC2CE /* LoginViewController.swift in Sources */,
 				CBA5C1E6207265B300CEC2CE /* ConfigurationManager+Properties.swift in Sources */,
+				383FEB41207FE53000D7716C /* BreedImage.swift in Sources */,
 				385D145020751613000E7BF1 /* LoginCoordinator.swift in Sources */,
 				383FEB37207F908D00D7716C /* String+CapitalizingFirstLetter.swift in Sources */,
 				385D144C2075149F000E7BF1 /* AppCoordinator.swift in Sources */,
+				383FEB47207FE54A00D7716C /* BreedImageViewModel.swift in Sources */,
 				383FEB39207FD83E00D7716C /* String+Localization.swift in Sources */,
 				385D144E2075156A000E7BF1 /* BaseCoordinator.swift in Sources */,
 				383FEB1D207BA7B200D7716C /* BreedTableViewCell.swift in Sources */,
 				383FEB0E2077D88B00D7716C /* DogBreedsService.swift in Sources */,
 				383FEB27207CE80600D7716C /* Mappable.swift in Sources */,
 				383FEB0C2077D4F800D7716C /* DogBreedsRepository.swift in Sources */,
+				383FEB4B2080F4FE00D7716C /* UIImageView+Loading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

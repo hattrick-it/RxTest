@@ -60,6 +60,10 @@ class HomeViewController : UIViewController {
         viewModel.error.do(onNext: { errorMessage in
             self.showAlert(withTitle: "Error".localized, message:errorMessage.localized, buttonTitle: "OK")
         }).subscribe().disposed(by: disposeBag)
+        
+        breedsTableView.rx.modelSelected(Breed.self)
+            .bind(to: viewModel.selectBreed)
+            .disposed(by: disposeBag)
     }
     
 }

@@ -10,5 +10,6 @@ target 'TestRx' do
   pod 'RxCocoa', '~> 4.0'
   pod 'Moya/RxSwift', '~> 11.0'
   pod 'SwiftyJSON'
+  pod 'Kingfisher'
 
 end

@@ -22,10 +22,18 @@ class HomeCoordinator: BaseCoordinator<Void> {
         let viewModel = HomeViewModel()
         let viewController = HomeViewController(viewModel: viewModel)
         let navigationController = UINavigationController(rootViewController: viewController)
-        navigationController.isNavigationBarHidden = true
+        navigationController.isNavigationBarHidden = false
         
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
+        
+        viewModel.selectedBreed.do(onNext: { [weak self] (breed) in
+            let viewModel = BreedImageViewModel()
+            viewModel.breedVariable.value = breed
+            let viewController = BreedImageViewController(viewModel: viewModel)
+            let navigationController =  self?.window.rootViewController as? UINavigationController
+            navigationController?.pushViewController(viewController, animated: true)
+        }).subscribe().disposed(by: disposeBag)
         
         return Observable.never()
     }
